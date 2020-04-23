@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: work_sans;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../funte/Work_Sans/static/WorkSans-Italic.ttf");
+    }
+    @font-face {
+        font-family:open_sans;
+        font-style: normal;
+        font-weight: 400;
+        src: url("../funte/Open_Sans/OpenSans-Italic.ttf");
+        }
+
+        @font-face {
+            font-family: raleway;
+            font-style: normal;
+            font-weight: 400;
+            src: url("../funte/Raleway/Raleway-Italic.ttf");
+            } 
+            .tipo{
+                list-style: none;
+                font-family: raleway;
+                position: relative;
+                top: 0px; /* ajustar los valores para mover la imagen */
+                left: 5px;
+            }
+            h1{
+                font-family: open_sans;
+                position: relative;
+                top: 675px; /* ajustar los valores para mover la imagen */
+                left: 200px;
+
+                font-weight: 400; 
+                background: #ffffff; 
+            }
+            
+            h2{
+                font-family: work_sans;
+                position: relative;
+                top: 200px; 
+                left: 50px;
+            }
+            #imagen{
+                float:right;
+                width: 1000px; height: 900px;
+            }
+#logo{
+    float:left;
+    width: 14px;     height:14px;
+   
+}
+.logo{
+    top: 200px; 
+    left: 50px;
+}

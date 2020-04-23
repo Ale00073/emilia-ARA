@@ -1,0 +1,78 @@
+@font-face {
+    font-family: work_sans;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../funte/Work_Sans/static/WorkSans-Italic.ttf");
+    }
+    @font-face {
+        font-family:open_sans;
+        font-style: normal;
+        font-weight: 400;
+        src: url("../funte/Open_Sans/OpenSans-Italic.ttf");
+        }
+
+        @font-face {
+            font-family: raleway;
+            font-style: normal;
+            font-weight: 400;
+            src: url("../funte/Raleway/Raleway-Italic.ttf");
+            } 
+            .tipo{
+                list-style: none;
+                font-family: raleway;
+                position: relative;
+                top: 1x; /* ajustar los valores para mover la imagen */
+                left: -40px;
+            }
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                position: relative;
+                top: 20px; /* ajustar los valores para mover la imagen */
+                left: 0px;
+            }
+            
+            h2{
+                font-family: open_sans;
+                position: relative;
+                top: 28px; /* ajustar los valores para mover la imagen */
+                left: 0px;
+               
+            }
+            #imagen{
+                float:left;
+                width: 600px; height: 350px;
+            }
+#logo{
+    float:right;
+    width: 14px;     height:14px;
+   
+}
+
+div
+{
+    position: relative;
+    left: 1050px;
+    top:1px;
+
+}
+.lista{
+    position: relative;
+    top: 400; /* ajustar los valores para mover la imagen */
+    right: 580px;
+}
+.video{
+    position: relative;
+    top: 400; /* ajustar los valores para mover la imagen */
+    left: -600 ; 
+}
+.lista2{
+    list-style: none;
+    position: relative;
+    top: 380; /* ajustar los valores para mover la imagen */
+    left:-40px;
+}
+.video2{
+    position: relative;
+    top: 400; /* ajustar los valores para mover la imagen */
+    left: 0 ; 
+}
